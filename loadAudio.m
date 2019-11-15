@@ -1,9 +1,7 @@
 function Z = loadAudio(paths)
-% Syntax:   Z = loadAudio(paths);
 
-% Parse inputs
+
 p = numel(paths);
-
 % Load audio
 audio = cell(1,p);
 for i = 1:p
