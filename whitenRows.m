@@ -1,4 +1,4 @@
-%Returns the whitened (identity covariance) version of the
+%Returns the whitened (identity covariance) version of the input data
 function [Zw, T] = whitenRows(Z)
 
 % Compute sample covariance
